@@ -1,0 +1,108 @@
+
+
+.filter-and-table-wrap{
+  min-height: 100vh;
+}
+
+.accordion-form select.input-lg {
+  height: 50px;
+}
+.form-row-1, .form-row-2 {
+  margin: 20px auto;
+}
+
+#start_date, #end_date{
+  position: relative;
+    z-index: 100;
+    top: -50px;
+    width: 67%;
+    box-shadow: none;
+    -moz-box-shadow: none;
+    -webkit-box-shadow: none;
+    color: black;
+
+}
+
+label[for="start_date"] > i,
+label[for="end_date"] > i
+{
+  color: #e94302;
+}
+
+.filter-wrap .panel-body{
+  background-color: rgba(137, 186, 247, 0.18);
+}
+
+.table-wrap{
+  margin: 20px;
+}
+.table-wrap .table-responsive {
+  min-height: 45vmin;
+}
+
+.table-wrap .table>thead>tr>th,
+.table-wrap .table>tbody>tr>td
+{
+  vertical-align: middle;
+  text-align: center;
+}
+
+.table-wrap .table thead {
+    background: #337ab7;
+}
+.table-wrap .table thead th {
+  color: white;
+}
+
+.table-wrap thead.affix{
+    top: 0;
+    width: 95.4%;
+    z-index: 9999 !important;
+    left: 50%;
+    transform: translateX(-50%);
+    position: fixed;
+}
+
+.table-wrap .table tbody {
+    background-color: rgba(102, 178, 222, 0.22);
+}
+.is-selected,
+.table-wrap .table tbody tr:hover{
+    /* background-color: rgba(12, 255, 75, 0.22); */
+    background-color: rgba(106, 255, 88, 0.22);
+}
+
+.table-wrap .table tbody td.border-dashed {
+      border-left: 3px solid rgba(128, 128, 128, 0.56);
+      border-right: 3px solid rgba(128, 128, 128, 0.56);
+}
+
+.table-wrap .table tfoot,
+.table-wrap .table tfoot tr:nth-child(2n),
+.table-wrap .table tfoot .deeper
+{
+    border: 3px solid rgba(123, 120, 122, 0.54);
+}
+/* .table-wrap .table tfoot tr:nth-child(2n){
+  border: 3px solid rgba(123, 120, 122, 0.54);
+} */
+.deeper{
+  font-weight: 600;
+  background-color: rgba(220, 95, 216, 0.12);
+  font-size: 1.7rem;
+}
+.table-wrap .table tfoot tr:nth-child(2n-1) th{
+  font-weight: 600;
+  font-style: oblique;
+}
+
+.not-available {
+  color: red;
+  /*border-color: orange;*/
+}
+.current-active {
+  border: 3px solid green;
+  color: blue;
+  font-weight: 600;
+  background-color: aliceblue;
+}
